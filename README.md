@@ -59,9 +59,10 @@
 ## 🚀 Installation & Usage
 
 ### For End-Users (Setup.exe)
-1. Download the latest `OnlyByHands_Setup.exe` from the **Releases** section.
-2. Run the installer, select your installation directory (e.g., `C:\Program Files`), and check the option to create a Desktop Shortcut.
-3. Open the app from your Desktop, click **START INITIALIZATION** on the Neural Link interface, and enjoy.
+1. Download the latest `OnlyByHands_Setup.rar` from the **Releases** section.
+2. Unzip this file, and run  `OnlyByHands_Setup.exe`. 
+3. Select your installation directory (e.g., `C:\Program Files`), and check the option to create a Desktop Shortcut.
+4. Open the app from your Desktop, click **START INITIALIZATION** on the interface, and enjoy.
 
 ### For Developers (Run from Source)
 1. Clone this repository to your local machine:
