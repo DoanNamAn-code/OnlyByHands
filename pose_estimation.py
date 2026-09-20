@@ -1,6 +1,14 @@
 import customtkinter as ctk
 import threading
 import time
+import os
+import sys
+def get_resource_path(relative_path):
+    if hasattr(sys, '_MEIPASS'):
+        base_path = sys._MEIPASS
+    else:
+        base_path = os.path.dirname(os.path.abspath(__file__))
+    return os.path.join(base_path, relative_path)
 def run_core():
     import cv2
     import mediapipe as mp
@@ -16,7 +24,7 @@ def run_core():
     import threading
     mouse = Controller()
    #Building model
-    base_options = python.BaseOptions(model_asset_path='hand_landmarker.task')
+    base_options = python.BaseOptions(model_asset_path=get_resource_path('hand_landmarker.task'))
     options = vision.HandLandmarkerOptions(
         base_options=base_options,
         num_hands=2, 
@@ -54,7 +62,7 @@ def run_core():
     ACTION_COOLDOWN = 0.8 
     keyboard = pkey.Controller()
     try:
-        model = tf.keras.models.load_model('emnist_model.h5')
+        model = tf.keras.models.load_model(get_resource_path('emnist_model.h5'))
     except:
         print("Download first!")
         exit()
@@ -388,7 +396,7 @@ def reset_start_button():
 ctk.set_appearance_mode("dark")  
 ctk.set_default_color_theme("blue") 
 app = ctk.CTk()
-app.iconbitmap('projecting-future-hand-holding-holographic-projection-38996155.ico')
+app.iconbitmap(get_resource_path('projecting-future-hand-holding-holographic-projection-38996155.ico'))
 app.geometry("400x550")
 app.title("OBHS")
 app.configure(fg_color="#0a0a0a") 
