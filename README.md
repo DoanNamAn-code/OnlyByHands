@@ -75,3 +75,18 @@
 
 ## 🤝 Contributing
 Feel free to open a Pull Request or an Issue to discuss details. Please ensure that all code maintains cross-platform compatibility and protects the main GUI thread from blocking operations.
+
+---
+
+## Acknowledgments & Third-Party Assets
+
+This project makes use of the following third-party models and datasets:
+
+* **Hand Tracking Model (`hand_landmarker.task`)**: 
+  * Provided by [Google MediaPipe](https://developers.google.com/mediapipe).
+  * Distributed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+* **EMNIST Character Recognition Model (`emnist_model.h5`)**: 
+  * Custom-trained model based on the **EMNIST Balanced** dataset provided via TensorFlow Datasets.
+  * **Dataset Citation**: 
+    > Cohen, G., Afshar, S., Tapson, J., & van Schaik, A. (2017). *EMNIST: an extension of MNIST to handwritten letters*. arXiv preprint arXiv:1702.05373. Available at: [https://arxiv.org/abs/1702.05373](https://arxiv.org/abs/1702.05373)
