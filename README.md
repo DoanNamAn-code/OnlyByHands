@@ -20,29 +20,29 @@
 ### 1. System Toggles (Mode Switching)
 | Hand | Gesture | Action |
 | :--- | :--- | :--- |
-| **Left** | 🤘 Rock (Spider-man) hold for 0.8s | Toggle Mouse Mode ON/OFF |
-| **Right** | 🤘 Rock (Spider-man) hold for 0.8s | Toggle Drawing/Keyboard Mode ON/OFF |
+| **Right** | 🤘 Rock (Spider-man) hold for 0.8s | Toggle Mouse Mode ON/OFF |
+| **Left** | 🤘 Rock (Spider-man) hold for 0.8s | Toggle Drawing/Keyboard Mode ON/OFF |
 
 ### 2. Drawing & Keyboard Mode
 *Active only when Keyboard Mode is ON.*
 
 | Hand | Gesture | Action |
 | :--- | :--- | :--- |
-| **Left** | 🤏 Pinch (Index & Thumb) | Draw virtual ink in the air |
-| **Right** | 👌 OK Sign | Activate OCR to read the drawn character |
-| **Right** | 👍 Thumbs Up | Press `Space` key |
-| **Right** | ✌️ Number 2 (L-shape) | Press `Enter` key |
-| **Right** | 👎 Thumbs Down | Press `Backspace` key |
-| **Right** | 🖐️ High-Five (Open palm) | Clear the virtual whiteboard |
+| **Right** | 🤏 Pinch (Index & Thumb) | Draw virtual ink in the air |
+| **Left** | 👌 OK Sign | Activate OCR to read the drawn character |
+| **Left** | 👍 Thumbs Up | Press `Space` key |
+| **Left** | ✌️ Number 2 (L-shape) | Press `Enter` key |
+| **Left** | 👎 Thumbs Down | Press `Backspace` key |
+| **Left** | 🖐️ High-Five (Open palm) | Clear the virtual whiteboard |
 
 ### 3. Mouse Mode
 *Active only when Mouse Mode is ON.*
 
 | Hand | Gesture | Action |
 | :--- | :--- | :--- |
-| **Left** | ☝️ Move Index Finger Tip | Move the mouse cursor |
-| **Left** | 🤏 Pinch (Index & Thumb) | Left-click |
-| **Right** | 🤏 Pinch & Drag Up/Down | Smooth scrolling |
+| **Right** | ☝️ Move Index Finger Tip | Move the mouse cursor |
+| **Right** | 🤏 Pinch (Index & Thumb) | Left-click |
+| **Left** | 🤏 Pinch & Drag Up/Down | Smooth scrolling |
 
 ---
 
